@@ -3,10 +3,10 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Medical Image Analysis",
-  "3D Radiology Report Generation",
-  "Semi-Supervised Learning",
-  "Computer-Aided Diagnosis"
+  "Hallucination Mitigation in Multimodal LLMs",
+  "Visual Evidence Grounding",
+  "Radiology Report Generation",
+  "Medical Image Analysis"
 ]
 
 [[sections]]

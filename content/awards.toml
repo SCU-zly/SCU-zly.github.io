@@ -3,19 +3,19 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "First-Class Doctoral Fellowship"
-subtitle = "Sichuan University"
-date = "2022"
-content = "Awarded the first-class doctoral scholarship at Sichuan University."
+title = "Sichuan Province Young Doer (Youth Practitioner)"
+subtitle = "Communist Youth League of Sichuan Province"
+date = "2025"
+content = "Recognized as a Sichuan Province Young Doer for outstanding contributions.\n\n![Young Doer](/awards/young-doer.png)"
 
 [[items]]
 title = "Bronze Medal, National Postdoctoral Innovation and Entrepreneurship Competition"
 subtitle = "Ministry of Human Resources and Social Security of China"
-date = "2024"
-content = "Won bronze medal in the national-level postdoctoral innovation and entrepreneurship competition."
+date = "2023"
+content = "Won bronze medal in the national-level postdoctoral innovation and entrepreneurship competition.\n\n![Bronze Medal](/awards/bronze-medal.png)"
 
 [[items]]
-title = "Sichuan Province Young Doer (Youth Practitioner)"
-subtitle = "Sichuan Province"
-date = "2024"
-content = "Recognized as a Sichuan Province Young Doer for outstanding contributions."
+title = "First-Class Doctoral Fellowship"
+subtitle = "Sichuan University"
+date = "2022"
+content = "Awarded the first-class doctoral scholarship at Sichuan University."

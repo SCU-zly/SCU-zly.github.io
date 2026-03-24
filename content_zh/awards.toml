@@ -3,19 +3,19 @@ title = "奖项"
 description = "我获得的荣誉与奖项。"
 
 [[items]]
-title = "博士生一等奖助金"
-subtitle = "四川大学"
-date = "2022"
-content = "获得四川大学博士研究生一等奖助金。"
+title = "四川省青年实干家"
+subtitle = "共青团四川省委"
+date = "2025"
+content = "被评为四川省青年实干家。\n\n![青年实干家](/awards/young-doer.png)"
 
 [[items]]
 title = "全国博士后创新创业大赛铜奖"
 subtitle = "人力资源和社会保障部"
-date = "2024"
-content = "在全国博士后创新创业大赛中获得铜奖。"
+date = "2023"
+content = "在全国博士后创新创业大赛中获得铜奖。\n\n![铜奖](/awards/bronze-medal.png)"
 
 [[items]]
-title = "四川省青年实干家"
-subtitle = "四川省"
-date = "2024"
-content = "被评为四川省青年实干家。"
+title = "博士生一等奖助金"
+subtitle = "四川大学"
+date = "2022"
+content = "获得四川大学博士研究生一等奖助金。"

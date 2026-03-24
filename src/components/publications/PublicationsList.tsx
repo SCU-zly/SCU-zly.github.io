@@ -11,6 +11,7 @@ import {
     ClipboardDocumentIcon,
     DocumentTextIcon
 } from '@heroicons/react/24/outline';
+import ReactMarkdown from 'react-markdown';
 import { Publication } from '@/types/publication';
 import { PublicationPageConfig } from '@/types/page';
 import { cn } from '@/lib/utils';
@@ -234,9 +235,11 @@ export default function PublicationsList({ config, publications, embedded = fals
                                     </p>
 
                                     {pub.description && (
-                                        <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-4 line-clamp-3">
-                                            {pub.description}
-                                        </p>
+                                        <div className="text-sm text-neutral-600 dark:text-neutral-500 mb-4 line-clamp-3">
+                                            <ReactMarkdown components={{ p: ({children}) => <span>{children}</span> }}>
+                                                {pub.description}
+                                            </ReactMarkdown>
+                                        </div>
                                     )}
 
                                     <div className="flex flex-wrap gap-2 mt-auto">

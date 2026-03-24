@@ -2,7 +2,7 @@
 
 **Sichuan University**, PhD in Artificial Intelligence (Direct PhD Program), *Sep 2022 - Present*
 - College of Computer Science, Artificial Intelligence Applications
-- Advisors: Prof. Zhang Yi and Prof. Xiuyuan Xu
+- Advisors: Prof. Zhang Yi (IEEE Fellow)
 
 **Sichuan University**, B.Eng. in Computer Science and Technology, *Sep 2018 - Jun 2022*
 - College of Computer Science
@@ -30,6 +30,6 @@ Intelligent Medical Center, Sichuan University
 
 ## Awards & Honors
 
-- **Sichuan Province Young Doer** (*2024*)
-- **Bronze Medal, National Postdoctoral Innovation and Entrepreneurship Competition** (*2024*)
+- **Sichuan Province Young Doer** (*2025*)
+- **Bronze Medal, National Postdoctoral Innovation and Entrepreneurship Competition** (*2023*)
 - **First-Class Doctoral Fellowship**, Sichuan University (*2022*)

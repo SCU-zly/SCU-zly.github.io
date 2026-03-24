@@ -1,5 +1,5 @@
-I am a PhD student at the College of Computer Science, Sichuan University, advised by [Prof. Zhang Yi](https://scholar.google.com/citations?user=ByBLlEwAAAAJ) and [Prof. Xiuyuan Xu](https://scholar.google.com/citations?user=5hti_r0AAAAJ). I am a member of the [Machine Intelligence Lab](https://mi-lab.scu.edu.cn/).
+I am a PhD student at the College of Computer Science, Sichuan University, advised by [Prof. Yi Zhang](http://www.machineilab.org/users/zhangyi/index.html) (***Foreign Member of the Russian Academy of Engineering, IEEE Fellow***). I am a member of the [Machine Intelligence Lab](http://www.machineilab.org/).
 
 Prior to this, I obtained my B.Eng. degree in Computer Science and Technology from Sichuan University in 2022.
 
-My research focuses on **medical image analysis** and **AI-driven clinical decision support**, including 3D radiology report generation, medical image segmentation, and computer-aided diagnosis. I aim to bridge the gap between deep learning methods and real-world clinical applications.
+My research centers on **mitigating hallucinations in Multimodal Large Language Models (MLLMs)** within real-world clinical scenarios. Specifically, I investigate how to effectively embed visual evidence grounding with rich semantic context into LLMs, enabling faithful and interpretable cross-modal reasoning. My work spans radiology report generation, medical image segmentation, and computer-aided diagnosis, aiming to build trustworthy AI systems that bridge the gap between multimodal intelligence and clinical practice.

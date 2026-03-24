@@ -1,5 +1,5 @@
-我是四川大学计算机学院的直博生，导师是[张翼教授](https://scholar.google.com/citations?user=ByBLlEwAAAAJ)和[许修远教授](https://scholar.google.com/citations?user=5hti_r0AAAAJ)，隶属于[机器智能实验室](https://mi-lab.scu.edu.cn/)。
+我是四川大学计算机学院的直博生，导师是[章毅教授](http://www.machineilab.org/users/zhangyi/index.html)（俄罗斯工程院外籍院士、IEEE Fellow）。隶属于[机器智能实验室](http://www.machineilab.org/)。
 
 此前，我于2022年在四川大学计算机学院获得计算机科学与技术工学学士学位。
 
-我的研究聚焦于**医学影像分析**和**AI驱动的临床决策支持**，包括3D放射学报告生成、医学图像分割和计算机辅助诊断。我致力于架起深度学习方法与真实临床应用之间的桥梁。
+我的研究聚焦于**多模态大语言模型（MLLM）在真实临床场景中的幻觉缓解**。具体而言，我致力于探索如何将视觉证据定位（Visual Evidence Grounding）与丰富语义上下文有效嵌入大语言模型，实现可信赖且可解释的跨模态推理。我的工作涵盖放射学报告生成、医学图像分割和计算机辅助诊断，旨在构建连接多模态智能与临床实践的可信AI系统。

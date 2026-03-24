@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
 import { Publication } from '@/types/publication';
 import { useMessages } from '@/lib/i18n/useMessages';
 
@@ -60,9 +61,11 @@ export default function SelectedPublications({ publications, title, enableOnePag
                             {pub.journal || pub.conference}
                         </p>
                         {pub.description && (
-                            <p className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">
-                                {pub.description}
-                            </p>
+                            <div className="text-sm text-neutral-500 dark:text-neutral-500 line-clamp-2">
+                                <ReactMarkdown components={{ p: ({children}) => <span>{children}</span> }}>
+                                    {pub.description}
+                                </ReactMarkdown>
+                            </div>
                         )}
                     </motion.div>
                 ))}
