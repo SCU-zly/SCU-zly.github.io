@@ -1,4 +1,4 @@
-I am a PhD student at the College of Computer Science, Sichuan University, advised by [Prof. Yi Zhang](http://www.machineilab.org/users/zhangyi/index.html) (***Foreign Member of the Russian Academy of Engineering, IEEE Fellow***). I am a member of the [Machine Intelligence Lab](http://www.machineilab.org/).
+I am a PhD student at the College of Computer Science, Sichuan University, advised by [Prof. Zhang Yi](http://www.machineilab.org/users/zhangyi/index.html) (***Foreign Member of the Russian Academy of Engineering, IEEE Fellow***). I am a member of the [Machine Intelligence Lab](http://www.machineilab.org/).
 
 Prior to this, I obtained my B.Eng. degree in Computer Science and Technology from Sichuan University in 2022.
 
