@@ -1,0 +1,38 @@
+type = "card"
+title = "Projects"
+description = "Research projects and open-source contributions."
+
+[[items]]
+title = "DEAR"
+subtitle = "AAAI 2026"
+date = "2025"
+content = "Mitigating Entity Hallucinations in 3D Radiology Report Generation via Dual-Stream Alignment. [[Code]](https://github.com/SCU-zly/DEAR)"
+tags = ["Medical AI", "Report Generation"]
+
+[[items]]
+title = "GGVMamba"
+subtitle = "MICCAI 2024"
+date = "2024"
+content = "Efficient and Gender-Adaptive Graph Vision Mamba for Pediatric Bone Age Assessment. [[Code]](https://github.com/SCU-zly/GGVMamba)"
+tags = ["Medical AI", "Vision Mamba"]
+
+[[items]]
+title = "ForeMatch"
+subtitle = "ACM MM 2026 (Under Review)"
+date = "2025"
+content = "Rethinking Foreground Consistency for Efficient Semi-Supervised 3D Medical Image Segmentation. [[Code]](https://github.com/SCU-zly/ForeMatch)"
+tags = ["Semi-Supervised Learning", "Segmentation"]
+
+[[items]]
+title = "Clinical Application for Lung Metastasis Prediction"
+subtitle = "Intelligent Medical Center, Sichuan University"
+date = "2023 - 2024"
+content = "Designed a deep radiomics pipeline integrating multi-parameter CT features for predicting lung metastasis. Collaborated with clinicians to validate on multi-center datasets."
+tags = ["Clinical AI", "Radiomics"]
+
+[[items]]
+title = "Intelligent Surgical Decision System for Lung Cancer"
+subtitle = "Intelligent Medical Center, Sichuan University"
+date = "2022 - 2023"
+content = "Developed backend modules supporting lung lesion classification and GGO invasiveness prediction algorithms for clinical decision platform."
+tags = ["Clinical AI", "Backend"]

@@ -1,0 +1,21 @@
+type = "card"
+title = "Awards"
+description = "Honors and awards I have received."
+
+[[items]]
+title = "First-Class Doctoral Fellowship"
+subtitle = "Sichuan University"
+date = "2022"
+content = "Awarded the first-class doctoral scholarship at Sichuan University."
+
+[[items]]
+title = "Bronze Medal, National Postdoctoral Innovation and Entrepreneurship Competition"
+subtitle = "Ministry of Human Resources and Social Security of China"
+date = "2024"
+content = "Won bronze medal in the national-level postdoctoral innovation and entrepreneurship competition."
+
+[[items]]
+title = "Sichuan Province Young Doer (Youth Practitioner)"
+subtitle = "Sichuan Province"
+date = "2024"
+content = "Recognized as a Sichuan Province Young Doer for outstanding contributions."

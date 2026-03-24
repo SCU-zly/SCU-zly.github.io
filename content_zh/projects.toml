@@ -1,0 +1,38 @@
+type = "card"
+title = "项目"
+description = "研究项目与开源贡献。"
+
+[[items]]
+title = "DEAR"
+subtitle = "AAAI 2026"
+date = "2025"
+content = "通过双流对齐缓解3D放射学报告生成中的实体幻觉。[[代码]](https://github.com/SCU-zly/DEAR)"
+tags = ["医学AI", "报告生成"]
+
+[[items]]
+title = "GGVMamba"
+subtitle = "MICCAI 2024"
+date = "2024"
+content = "面向儿童骨龄评估的高效性别自适应图视觉Mamba。[[代码]](https://github.com/SCU-zly/GGVMamba)"
+tags = ["医学AI", "Vision Mamba"]
+
+[[items]]
+title = "ForeMatch"
+subtitle = "ACM MM 2026（在审）"
+date = "2025"
+content = "重新思考前景一致性以实现高效的半监督3D医学图像分割。[[代码]](https://github.com/SCU-zly/ForeMatch)"
+tags = ["半监督学习", "图像分割"]
+
+[[items]]
+title = "基于放射学图像的肺转移预测临床应用"
+subtitle = "四川大学智能医学中心"
+date = "2023 - 2024"
+content = "设计了整合多参数CT特征的深度放射组学流程，用于预测肺转移。与临床医生合作在多中心数据集上验证。"
+tags = ["临床AI", "放射组学"]
+
+[[items]]
+title = "肺癌智能手术决策系统"
+subtitle = "四川大学智能医学中心"
+date = "2022 - 2023"
+content = "开发后端模块支持肺部病变分类和GGO侵袭性预测算法的部署，服务于临床决策平台。"
+tags = ["临床AI", "后端开发"]

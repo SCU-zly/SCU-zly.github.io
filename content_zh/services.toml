@@ -1,0 +1,21 @@
+type = "card"
+title = "学术服务"
+description = "专业服务与社区参与。"
+
+[[items]]
+title = "审稿人"
+subtitle = "ACM MM 2026"
+date = "2026"
+content = "为ACM国际多媒体会议审稿。"
+
+[[items]]
+title = "审稿人"
+subtitle = "MICCAI 2026"
+date = "2026"
+content = "为国际医学图像计算与计算机辅助干预会议审稿。"
+
+[[items]]
+title = "审稿人"
+subtitle = "AAAI 2026"
+date = "2026"
+content = "为AAAI人工智能大会审稿。"

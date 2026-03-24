@@ -1,0 +1,75 @@
+[site]
+title = "Lingyu Zhou"
+description = "PhD student at Sichuan University, researching medical image analysis and AI."
+favicon = "/favicon.svg"
+last_updated = "March 24, 2026"
+
+[author]
+name = "Lingyu Zhou"
+title = "PhD Student"
+institution = "Sichuan University"
+avatar = "/bio.jpg"
+
+[social]
+email = "scu_zly@stu.scu.edu.cn"
+location = "Chengdu, China"
+location_url = "https://maps.google.com/?q=Sichuan+University+Chengdu"
+location_details = [
+  "College of Computer Science,",
+  "Sichuan University, Chengdu, China"
+]
+google_scholar = "https://scholar.google.com.hk/citations?user=HOtgH2AAAAAJ&hl=zh-CN"
+github = "https://github.com/SCU-zly"
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Projects"
+type = "page"
+target = "projects"
+href = "/projects"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"
