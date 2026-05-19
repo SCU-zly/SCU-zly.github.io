@@ -24,15 +24,15 @@ content = "Rethinking Foreground Consistency for Efficient Semi-Supervised 3D Me
 tags = ["Semi-Supervised Learning", "Segmentation"]
 
 [[items]]
-title = "Clinical Application for Lung Metastasis Prediction"
-subtitle = "Intelligent Medical Center, Sichuan University"
-date = "2023 - 2024"
-content = "Designed a deep radiomics pipeline integrating multi-parameter CT features for predicting lung metastasis. Collaborated with clinicians to validate on multi-center datasets."
-tags = ["Clinical AI", "Radiomics"]
+title = "Multimodal Report Generation System for 3D Radiological Imaging"
+subtitle = "Algorithm Lead | Intelligent Medical Center, Sichuan University"
+date = "2025 - Present"
+content = "Built an end-to-end system generating structured radiology reports from 3D CT volumes. Curated a 28,752-patient multimodal dataset with Dazhou Central Hospital and deployed the model into clinical PACS workflows."
+tags = ["Clinical AI", "Report Generation"]
 
 [[items]]
-title = "Intelligent Surgical Decision System for Lung Cancer"
-subtitle = "Intelligent Medical Center, Sichuan University"
-date = "2022 - 2023"
-content = "Developed backend modules supporting lung lesion classification and GGO invasiveness prediction algorithms for clinical decision platform."
-tags = ["Clinical AI", "Backend"]
+title = "Deep Radiomics for Lung Metastasis Prediction"
+subtitle = "Algorithm Lead | Intelligent Medical Center, Sichuan University"
+date = "2024 - 2025"
+content = "Developed a full-pipeline deep radiomics workflow spanning lesion segmentation, feature modeling, and metastasis risk prediction, validated with clinicians across multiple centers."
+tags = ["Clinical AI", "Radiomics"]

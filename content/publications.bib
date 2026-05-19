@@ -11,14 +11,26 @@
   preview={dear.png}
 }
 
+@inproceedings{zhou2026heatrad,
+  selected={true},
+  title = {Glance Before You Tell: Anomaly-Guided 3D Radiology Report Generation with Heat-Conduction Slice Encoders},
+  author = {Lingyu Zhou and Dingwen Pi and Zhang Yi and Jun Wu and Xiuyuan Xu},
+  year = {2026},
+  booktitle = {Proceedings of the Conference on Neural Information Processing Systems (NeurIPS)},
+  abstract = {Generating accurate radiology reports from 3D medical volumes remains prone to hallucination. Existing grounding strategies often depend on external visual foundation models or on fixed medical phrase queues. The former passes segmenter-derived evidence to generation, where segmentation errors are hard to suppress. The latter has limited coverage of long-tail and compositional abnormalities. We therefore propose HEATRAD, a glance-before-tell framework that first routes suspicious slice evidence into an organ-ordered visual prefix, then generates reports from this localized evidence without explicit grounding supervision. HEATRAD uses a slice-centric signed heat-conduction encoder that performs efficient spectral mixing while separating smooth anatomy from lesion-like residues. HEATRAD then scores suspicious slices, binds their evidence to coarse organ contexts, and assembles an organ-ordered visual prefix, guiding the decoder toward localized abnormalities instead of redundant volumetric context. Experiments on three 3D radiology benchmarks show consistent gains in clinical fidelity and hallucination-related metrics, supporting anomaly-first evidence selection as an annotation-efficient paradigm for 3D report generation.},
+  description={Proposed HeatRAD, a glance-before-tell framework that routes anomaly-guided slice evidence into an organ-ordered visual prefix for 3D radiology report generation. **NeurIPS 2026, CCF-A, Under Review**.},
+  keywords={Radiology Report Generation, Anomaly-Guided Evidence, Medical AI},
+  preview={heatrad.png}
+}
+
 @inproceedings{zhou2026volnav,
   selected={true},
   title = {Navigate Before You Generate: Volume Evidence Grounding for 3D Radiology Reports},
-  author = {Lingyu Zhou and Dingwen Pi and Zhang Yi and Xiuyuan Xu},
+  author = {Lingyu Zhou and Dingwen Pi and Jun Wu and Zhang Yi and Xiuyuan Xu},
   year = {2026},
-  booktitle = {Proceedings of the International Conference on Machine Learning (ICML)},
-  abstract = {Hallucination is a major concern in radiology report generation (RRG), particularly with high-density, redundant 3D CT scans. Most recent approaches adopt a static one-shot encoding paradigm, causing large language models (LLMs) to rely heavily on internal language priors during report generation. To narrow this gap, we propose a Volume Navigator (Vol-Nav) for 3D radiology report generation, which introduces a new paradigm that treats raw volumes as a dynamical querying environment. Specifically, based on anatomical consensus, Vol-Nav employs a two-stage volume evidence grounding strategy. Stage I employs a text-guided universal segmentation model to efficiently localize organ evidence within 3D scans. To provide richer anatomical context, we further expand the organ masks to their surrounding neighborhoods, mitigating the inductive bias introduced by the pre-trained segmentation model. Meanwhile, stage II introduces an organ-guided active exploration process building on the organ-conditioned nature of lesion occurrence. By mimicking radiologists' reading workflows, Vol-Nav progressively calibrates lesion evidence by jointly optimizing semantic-consistency and spatial-progress signals. The evidence obtained from both stages ensures that each generated report part is explicitly supported by corresponding volume feature, thereby substantially improving interpretability. Experiments across three public benchmarks demonstrate that Vol-Nav outperforms the state-of-the-art methods in report accuracy while reducing hallucination.},
-  description={Proposed Vol-Nav, a volume evidence grounding paradigm for 3D radiology report generation. **ICML 2026, CCF-A, Under Review**.},
+  booktitle = {Proceedings of the Conference on Neural Information Processing Systems (NeurIPS)},
+  abstract = {Hallucination is a major concern in radiology report generation (RRG), particularly with high-density, redundant 3D CT scans. Most recent approaches adopt a static single-pass encoding paradigm, causing large language models (LLMs) to rely heavily on internal language priors during report generation. To narrow this gap, we propose a Volume Navigator (Vol-Nav) for 3D radiology report generation, which introduces a new paradigm that treats raw volumes as an active querying environment. Specifically, based on anatomical consensus, Vol-Nav employs a two-stage volume evidence grounding strategy. Stage I employs a text-guided universal segmentation model to efficiently localize organ evidence within 3D scans. To provide richer anatomical context, we further expand the organ masks to their surrounding neighborhoods, mitigating the inductive bias introduced by the pre-trained segmentation model. Meanwhile, stage II introduces an organ-guided active exploration process, building on the organ-conditioned nature of lesion occurrence. Stage II progressively calibrates lesion evidence by jointly optimizing spectral-anomaly and spatial-progress signals, rather than relying on static text-driven queries. Before report generation, a lightweight gating module suppresses evidence with low confidence, ensuring that the LLM is conditioned only on volumetric features that genuinely support each clinical statement. Experiments across three public benchmarks demonstrate that Vol-Nav outperforms the state-of-the-art methods in report accuracy while reducing hallucination.},
+  description={Proposed Vol-Nav, a volume evidence grounding paradigm for 3D radiology report generation. **NeurIPS 2026, CCF-A, Under Review**.},
   keywords={Radiology Report Generation, Evidence Grounding, Medical AI},
   preview={volnav.png}
 }

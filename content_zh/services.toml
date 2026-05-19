@@ -4,15 +4,21 @@ description = "专业服务与社区参与。"
 
 [[items]]
 title = "审稿人"
-subtitle = "ACM MM 2026"
+subtitle = "MICCAI 2026"
 date = "2026"
-content = "为ACM国际多媒体会议审稿。"
+content = "为国际医学图像计算与计算机辅助干预会议审稿。**未投稿即受邀担任审稿人。**"
 
 [[items]]
 title = "审稿人"
-subtitle = "MICCAI 2026"
+subtitle = "NeurIPS 2026"
 date = "2026"
-content = "为国际医学图像计算与计算机辅助干预会议审稿。"
+content = "为神经信息处理系统大会审稿。**未投稿即受邀担任审稿人。**"
+
+[[items]]
+title = "审稿人"
+subtitle = "ACM MM 2026"
+date = "2026"
+content = "为ACM国际多媒体会议审稿。"
 
 [[items]]
 title = "审稿人"

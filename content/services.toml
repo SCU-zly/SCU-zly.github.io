@@ -4,15 +4,21 @@ description = "Professional services and community involvement."
 
 [[items]]
 title = "Reviewer"
-subtitle = "ACM MM 2026"
+subtitle = "MICCAI 2026"
 date = "2026"
-content = "Reviewed papers for ACM International Conference on Multimedia."
+content = "Reviewed papers for International Conference on Medical Image Computing and Computer-Assisted Intervention. **Invited as a reviewer without submitting a paper.**"
 
 [[items]]
 title = "Reviewer"
-subtitle = "MICCAI 2026"
+subtitle = "NeurIPS 2026"
 date = "2026"
-content = "Reviewed papers for International Conference on Medical Image Computing and Computer-Assisted Intervention."
+content = "Reviewed papers for the Conference on Neural Information Processing Systems. **Invited as a reviewer without submitting a paper.**"
+
+[[items]]
+title = "Reviewer"
+subtitle = "ACM MM 2026"
+date = "2026"
+content = "Reviewed papers for ACM International Conference on Multimedia."
 
 [[items]]
 title = "Reviewer"

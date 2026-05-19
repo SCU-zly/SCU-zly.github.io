@@ -30,6 +30,15 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Set last updated date
+        run: |
+          EN_DATE=$(TZ=Asia/Shanghai date '+%B %-d, %Y')
+          ZH_DATE=$(TZ=Asia/Shanghai date '+%Y年%-m月%-d日')
+          sed -i "s/^last_updated = \".*\"/last_updated = \"$EN_DATE\"/" content/config.toml
+          sed -i "s/^last_updated = \".*\"/last_updated = \"$ZH_DATE\"/" content_zh/config.toml
+          echo "content/config.toml -> $EN_DATE"
+          echo "content_zh/config.toml -> $ZH_DATE"
+
       - name: Build
         run: npx next build
 
