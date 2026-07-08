@@ -3,6 +3,13 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
+title = "First Prize, Sichuan Province \"Challenge Cup\" Competition"
+subtitle = "As Team Leader · Communist Youth League of Sichuan Province"
+date = "2026"
+content = "Led the team to win the first prize at the provincial level \"Challenge Cup\" competition.\n\n![挑战杯省一](/awards/挑战杯省一.jpg)"
+highlight = true
+
+[[items]]
 title = "Sichuan Province Young Doer (Youth Practitioner)"
 subtitle = "Communist Youth League of Sichuan Province"
 date = "2025"

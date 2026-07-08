@@ -9,6 +9,8 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.claude/
+
 
 # testing
 /coverage
@@ -46,5 +48,6 @@ next-env.d.ts
 # local-only files
 docs/CONTENT_GUIDE.md
 finetune/
+docs/*.pdf
 finetune.md
 finetune2.md
