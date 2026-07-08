@@ -31,6 +31,7 @@ Algorithm Lead | Intelligent Medical Center, Sichuan University
 
 ## Awards & Honors
 
+- **First Prize, Sichuan Province "Challenge Cup" Competition** (*2026*)
 - **Sichuan Province Young Doer** (*2025*)
 - **Bronze Medal, National Postdoctoral Innovation and Entrepreneurship Competition** (*2023*)
 - **First-Class Doctoral Fellowship**, Sichuan University (*2022*)
