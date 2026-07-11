@@ -18,7 +18,7 @@ tags = ["医学AI", "Vision Mamba"]
 
 [[items]]
 title = "ForeMatch"
-subtitle = "ACM MM 2026（在审）"
+subtitle = "ACM MM 2026（已录用）"
 date = "2025"
 content = "重新思考前景一致性以实现高效的半监督3D医学图像分割。[[代码]](https://github.com/SCU-zly/ForeMatch)"
 tags = ["半监督学习", "图像分割"]

@@ -18,7 +18,7 @@ tags = ["Medical AI", "Vision Mamba"]
 
 [[items]]
 title = "ForeMatch"
-subtitle = "ACM MM 2026 (Under Review)"
+subtitle = "ACM MM 2026 (Accepted)"
 date = "2025"
 content = "Rethinking Foreground Consistency for Efficient Semi-Supervised 3D Medical Image Segmentation. [[Code]](https://github.com/SCU-zly/ForeMatch)"
 tags = ["Semi-Supervised Learning", "Segmentation"]
