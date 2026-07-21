@@ -24,9 +24,16 @@ content = "Rethinking Foreground Consistency for Efficient Semi-Supervised 3D Me
 tags = ["Semi-Supervised Learning", "Segmentation"]
 
 [[items]]
+title = "Chest CT World Foundation Model"
+subtitle = "Project Lead"
+date = "2026-06 - 2026-12"
+content = "Building a CT-anatomy-aware JEPA world foundation model on ~120,000 chest CT scans with a Continuous Thought Machine-based disentangled modeling pipeline, achieving SOTA on multiple downstream tasks. Department-wide downstream validation is planned in Thoracic Surgery at West China Hospital, Sichuan University."
+tags = ["Foundation Model", "Medical AI"]
+
+[[items]]
 title = "Multimodal Report Generation System for 3D Radiological Imaging"
 subtitle = "Algorithm Lead | Intelligent Medical Center, Sichuan University"
-date = "2025 - Present"
+date = "2025 - 2026-05-15"
 content = "Built an end-to-end system generating structured radiology reports from 3D CT volumes. Curated a 28,752-patient multimodal dataset with Dazhou Central Hospital and deployed the model into clinical PACS workflows."
 tags = ["Clinical AI", "Report Generation"]
 
