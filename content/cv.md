@@ -9,9 +9,16 @@
 
 ## Research Projects
 
+**Chest CT World Foundation Model**
+Project Lead | Intelligent Medical Center, Sichuan University
+*Jun 2026 - Present*
+- **Background:** Building a CT-anatomy-aware JEPA world foundation model on ~120,000 chest CT scans to learn generalizable representations for thoracic imaging.
+- **Outcomes:** Achieved SOTA on multiple downstream tasks; department-wide downstream validation is planned in Thoracic Surgery at West China Hospital, Sichuan University.
+- **Technical Highlights:** Designed a Continuous Thought Machine-based disentangled modeling pipeline that integrates CT anatomical priors into JEPA pretraining.
+
 **Multimodal Report Generation System for 3D Radiological Imaging**
 Algorithm Lead | Intelligent Medical Center, Sichuan University
-*Sep 2025 - Present*
+*Sep 2025 - May 2026*
 - **Background:** Built on the heterogeneous computing platform provided by the NSFC Major Program "Deep Learning Frameworks for Heterogeneous Computing Architectures and Large-Model Demonstration Applications," this work operationalizes the Sichuan Provincial Imaging Medicine Clinical Research Center open project "Multimodal-LLM-based DR Report Template Retrieval." Addressing radiologists' heavy daily reading workload and time-consuming report writing, it delivers an end-to-end system from 3D CT input to structured radiology report output.
 - **Outcomes:** In collaboration with Dazhou Central Hospital, curated CT/MRI/X-ray scans and original reports from 28,752 patients, and designed a three-stage quality-control pipeline (physician entity-level correction + cross-physician consistency review + rule-engine anomaly detection) to build a high-quality multimodal dataset. The model was deployed at Dazhou Central Hospital with strong clinical results.
 - **Technical Highlights:** Designed a vision-language alignment engine on SAT-Pro, M3D-CLIP, LLaMA3-8B and PPO, performing evidence grounding with 32 organ-entity queries and 48 lesion-entity queries, trained via LoRA (rank=64) + 8-bit quantization on 4×RTX 4090, and packaged as a PACS-integrable inference service.
